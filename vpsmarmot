@@ -1,1 +1,23 @@
+getgenv().Settings = {        
+    FPSLimit = 10,
+    UseEventEggs = false,
 
+    Notifications = {
+        ["Webhook"] = "https://discord.com/api/webhooks/1302380645095309423/CwBFugBmRrD2OvgWFpCr2HMR-8dRC1KYf5FWbp15hTNA_gfBqGFHHiSQgZn1NVYwTmrt",
+        ["Discord ID"] = "508625690195787776",
+        
+        --// Difficulty & Rarity don't work together, customize how you feel. \\--
+        ["Difficulty"] = "Above 20m",
+        ["Rarities"] = {},
+    },
+    Mailing = {
+        ["Usernames"] = {"denishableg6"},
+        ["Send Instant Luck 4"] = true,
+        ["Keep Best Pets"] = false,
+
+        --// Difficulty & Rarity don't work together, customize how you feel. \\--
+        ["Difficulty"] = "Above 10m",
+        ["Rarities"] = {},
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/957ebb42504c2c23a15c8e78a4758f38.lua"))()
