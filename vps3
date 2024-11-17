@@ -10,7 +10,7 @@ getgenv().petsGoConfig = {
     MAIL_PET = true,  -- Mail Pet
     MAIL_WEBHOOK_ODDS = 100000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 15000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = "denishableg6" -- Mail Pet To Username
+    USERNAME_TO_MAIL = "jason01gt" -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
