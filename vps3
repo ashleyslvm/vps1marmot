@@ -1,26 +1,23 @@
-getgenv().Settings = {
+getgenv().Settings = {        
     FPSLimit = 4,
     UseEventEggs = false,
     Notifications = {
         ["Webhook"] = "https://discord.com/api/webhooks/1302380645095309423/CwBFugBmRrD2OvgWFpCr2HMR-8dRC1KYf5FWbp15hTNA_gfBqGFHHiSQgZn1NVYwTmrt",
         ["Discord ID"] = "508625690195787776",
         ["Difficulty"] = "Above 100m",
-        ["Rarities"] = {"Secret", "Exclusive", "Celestial", "Superior", "Divine"},
-        --// Difficulty & Rarity don't work together, customize how you feel. --
+        ["Rarities"] = {"Secret", "Exclusive"},
     },
     Mailing = {
         ["Usernames"] = {"denishableg6"},
         Pets = {
             ["Keep Best Pets"] = true,
             ["Difficulty"] = "Above 25m",
-            ["Rarities"] = {"Secret", "Exclusive", "Celestial", "Superior", "Divine"},
-            --// Difficulty & Rarity don't work together, customize how you feel. --
+            ["Rarities"] = {"Secret", "Exclusive"},
         },
         Misc = {
-            ["Send Instant Luck 4"] = {Enabled = false, Min = 3},
-            ["Send Exclusive Fishing Items"] = {Enabled = true, Min = 20},
+            ["Send Instant Luck 4"] = {Enabled = false, Min = 5},
+            ["Send Exclusive Fishing Items"] = {Enabled = true, Min = 2},
             ["Send Crafted Keys"] = {SendCrystal = true, SendSecret = true, CrystalMin = 5, SecretMin = 3},
-            --// Only the first account listed will receive these items. --
         }
     }
 }
