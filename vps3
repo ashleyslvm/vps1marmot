@@ -19,7 +19,7 @@ getgenv().Settings = {
             ["Send Instant Luck 4"] = {Active = false, Minimum = 1},
             ["Send Exclusive Fishing Items"] = {Active = true, Minimum = 1},
             ["Send Keys"] = {
-                ["Crystal"] = {Active = true, Minimum = 5, Parts = {UpperMinimum = 3, LowerMinimum = 5}},
+                ["Crystal"] = {Active = true, Minimum = 10, Parts = {UpperMinimum = 10, LowerMinimum = 25}},
                 ["Secret"] = {Active = true, Minimum = 2},
             },
             --// Only the first account listed will receive these items. \\--
