@@ -1,26 +1,28 @@
 getgenv().Settings = {        
-    FPSLimit = 4,
+    FPSLimit = 60,
+    CraftInsta4PotionsSoICanSellThem = false,
     ["Notifications"] = {
-        Webhook = "https://discord.com/api/webhooks/1302380645095309423/CwBFugBmRrD2OvgWFpCr2HMR-8dRC1KYf5FWbp15hTNA_gfBqGFHHiSQgZn1NVYwTmrt",
-        DiscordID = "508625690195787776",
-        Difficulty = "Above 100m",
-        Rarities = {"Secret", "Exclusive", "Celestial", "Superior"},
+        Webhook = "Webhook URL",
+        DiscordID = "",
+        Difficulty = "Above 1m",
+        Rarities = {"Divine", "Exotic", "Secret", "Exclusive", "Celestial", "Superior", "Mythical"},
         --// Difficulty & Rarity don't work together, customize how you feel. \\--
     },
     ["Mailing"] = {
-        Usernames = {"denishableg6"},
+        Usernames = {""},
         ["Pets"] = {
-            KeepBestPets = false,
+            KeepBestPets = true,
             Difficulty = "Above 25m",
-            Rarities = {"Divine", "Exotic", "Secret", "Exclusive", "Celestial", "Superior"},
+            Rarities = {"Divine", "Exotic", "Secret", "Exclusive", "Celestial", "Superior", "Mythical"},
             --// Difficulty & Rarity don't work together, customize how you feel. \\--
         },
         ["Misc"] = {
-            ["Send Instant Luck 4"] = {Active = false, Minimum = 1},
+            ["Send Instant Luck 4"] = {Active = true, Minimum = 1},
+            ["Send God Potions"] = {Active = true, Minimum = 1},
             ["Send Exclusive Fishing Items"] = {Active = true, Minimum = 1},
             ["Send Keys"] = {
-                ["Crystal"] = {Active = true, Minimum = 10, Parts = {UpperMinimum = 10, LowerMinimum = 25}},
-                ["Secret"] = {Active = true, Minimum = 2},
+                ["Crystal"] = {Active = true, Minimum = 20, Parts = {UpperMinimum = 20, LowerMinimum = 0}},
+                ["Secret"] = {Active = true, Minimum = 5},
             },
             --// Only the first account listed will receive these items. \\--
         }
